@@ -21,7 +21,7 @@ namespace lab1semestr4BD.Model
         /// <summary>
         /// Внешний ключ от сотрудников
         /// </summary>
-        public int StaffStaffId { get; set; }
+        public Nullable<int> StaffStaffId { get; set; }
         public Staff Staff { get; set; }
 
         /// <summary>

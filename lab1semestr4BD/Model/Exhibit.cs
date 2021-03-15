@@ -26,7 +26,7 @@ namespace lab1semestr4BD.Model
         /// <summary>
         /// Внешний ключ от залов
         /// </summary>
-        public int HallHallId { get; set; }
+        public Nullable<int> HallHallId { get; set; }
         public Hall Hall { get; set; }
     }
 }
